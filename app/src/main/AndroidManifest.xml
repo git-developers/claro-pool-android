@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.igol.software.activity">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.claropool.software.activity">
 
     <!-- To auto-complete the email text field in the act_4_login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -23,21 +23,8 @@
         adjust_indentation="auto"
         github_link=True %}
 
-        <service android:name="com.igol.software.activity.MyFirebaseInstanceIdService" android:exported="true">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
-            </intent-filter>
-        </service>
-
-        <service
-            android:name="com.igol.software.activity.MyFirebaseMessagingService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-            </intent-filter>
-        </service>
-
         <activity
-            android:name="com.igol.software.activity.SplashActivity"
+            android:name="com.claropool.software.activity.SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -47,21 +34,21 @@
         </activity>
         <activity
             android:label="@string/app_name"
-            android:name="com.igol.software.activity.LoginActivity"
+            android:name="com.claropool.software.activity.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
             android:configChanges="keyboardHidden|orientation|screenSize"
             />
         <activity
             android:label="@string/app_name"
-            android:name="com.igol.software.activity.WebPageActivity"
+            android:name="com.claropool.software.activity.WebPageActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
             android:configChanges="keyboardHidden|orientation|screenSize"
             />
 
         <activity
-            android:name="com.igol.software.activity.NotificationActivity"
+            android:name="com.claropool.software.activity.NotificationActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

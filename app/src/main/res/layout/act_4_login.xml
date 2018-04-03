@@ -5,7 +5,7 @@
     android:background="@mipmap/background_pattern"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.igol.software.activity.LoginActivity">
+    tools:context="com.claropool.software.activity.LoginActivity">
     <!--android:background="@color/colorPrimaryDark"-->
 
     <include
